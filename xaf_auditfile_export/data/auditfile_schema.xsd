@@ -1009,8 +1009,7 @@
 																								<xsd:restriction base="xsd:decimal">
 																									<xsd:totalDigits value="8"/>
 																									<xsd:fractionDigits value="3"/>
-																									<xsd:minInclusive value="0.000"/>
-																									<xsd:pattern value="[0-9]{1,5}[.][0-9]{3}"/>
+																									<xsd:pattern value="[\-+]?[0-9]{1,5}[.][0-9]{3}"/>
 																								</xsd:restriction>
 																							</xsd:simpleType>
 																						</xsd:element>
@@ -1278,8 +1277,7 @@
 																								<xsd:restriction base="xsd:decimal">
 																									<xsd:totalDigits value="8"/>
 																									<xsd:fractionDigits value="3"/>
-																									<xsd:minInclusive value="0.000"/>
-																									<xsd:pattern value="[0-9]{1,5}[.][0-9]{3}"/>
+																									<xsd:pattern value="[\-+]?[0-9]{1,5}[.][0-9]{3}"/>
 																								</xsd:restriction>
 																							</xsd:simpleType>
 																						</xsd:element>
