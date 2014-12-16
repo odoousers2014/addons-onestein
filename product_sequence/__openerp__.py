@@ -29,7 +29,7 @@ Product sequence
 Adding Product Sequence to the default_code field
 """,
     'author': 'ICTSTUDIO - ONESTEiN BV | André Schenkels',
-    'website': 'http://www.onestein.nl',
+    'website': 'http://www.onestein.eu',
     'depends': [
         'base',
         'product',
