@@ -37,6 +37,7 @@ The partner number will be added to the partner just like with the Products in O
         'base',        
     ],
     'data': [
+        'security/ir.model.access.csv',
         'partner_view.xml',
         'partner_sequence.xml',
     ],
