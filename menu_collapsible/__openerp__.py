@@ -19,18 +19,18 @@
 ##############################################################################
 
 {
-    'name': "Collapsible / Expandable Menu",
-    'summary': """Makes the secondary menu collapsible / expandable""",
+    'name': "Foldable menu",
+    'summary': """Foldable second level menu""",
     'description': """
-Collapsible / Expandable Menu
+Foldable menu
 =============================
 
-This module makes the secondary menu collapsible and expandable.  
+This module allows to fold the second level menu items.  
     """,
     'author': "ONESTEiN BV",
     'website': "http://www.onestein.eu",
     'category': "Custom",
-    'version': "1.0",
+    'version': "1.0.1",
     'depends': ['web'],
     'data': ['views/menu_collapsible.xml'],
     'demo': [],

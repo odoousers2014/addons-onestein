@@ -20,8 +20,9 @@
 ##############################################################################
 
 {
-    'name': 'Partner Sequence',
-    'version': '1.0',
+    'name': 'Partner sequence',
+    'version': '1.0.1',
+    'summary': """Generates unique identifiers for partners""",
     'category': 'Custom',
     'description': """
 Partner sequence
@@ -29,10 +30,10 @@ Partner sequence
 Use the standard reference field on partner for the unique partner number.
 Adds extra sequence type: Partner and a sequence with code res.partner. As default this sequence will be
 used to assign to partners. You can use the Partner Sequence forms to set different sequence for a country.
-The partner number will be added to the partner just like with the Products in ODOO.
+The partner number will be added to the partner just like with the Products in Odoo.
 """,
-    'author': 'ICTSTUDIO - ONESTEiN BV | André Schenkels',
-    'website': 'http://www.onestein.nl',
+    'author': 'ONESTEiN BV',
+    'website': 'http://www.onestein.eu',
     'depends': [
         'base',        
     ],

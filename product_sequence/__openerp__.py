@@ -20,15 +20,16 @@
 ##############################################################################
 
 {
-    'name': 'Product Sequence',
-    'version': '1.0',
+    'name': 'Product sequence',
+    'version': '1.0.1',
+    'summary': """Generates unique identifiers for products""",
     'category': 'Custom',
     'description': """
 Product sequence
 ===============================================
 Adding Product Sequence to the default_code field
 """,
-    'author': 'ICTSTUDIO - ONESTEiN BV | André Schenkels',
+    'author': 'ONESTEiN BV',
     'website': 'http://www.onestein.eu',
     'depends': [
         'base',
