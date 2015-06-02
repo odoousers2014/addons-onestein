@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ari_logistics/ari_erp/!svn/ver/14/source/code/trunk/8_0/custom_addons/partner_profit_segmentation
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/ari_logistics/ari_erp/!svn/ver/8/source/code/trunk/8_0/custom_addons/partner_profit_segmentation/__init__.py
+END
+__openerp__.py
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/ari_logistics/ari_erp/!svn/ver/14/source/code/trunk/8_0/custom_addons/partner_profit_segmentation/__openerp__.py
+END
+res_partner_profitseg.py
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/ari_logistics/ari_erp/!svn/ver/13/source/code/trunk/8_0/custom_addons/partner_profit_segmentation/res_partner_profitseg.py
+END
+res_partner_profitseg_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/ari_logistics/ari_erp/!svn/ver/8/source/code/trunk/8_0/custom_addons/partner_profit_segmentation/res_partner_profitseg_view.xml
+END

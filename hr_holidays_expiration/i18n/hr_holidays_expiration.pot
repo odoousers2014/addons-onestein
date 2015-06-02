@@ -1,0 +1,153 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* hr_holidays_expiration
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-28 07:33+0000\n"
+"PO-Revision-Date: 2015-05-28 07:33+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_holidays_expiration
+#: model:email.template,body_html:hr_holidays_expiration.email_template_hr_holidays
+msgid "\n"
+"<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; \">\n"
+"\n"
+"    <p>Hello ${object.notify_to and object.notify_to.title_id and object.notify_to.title_id.name or ''} ${object.notify_to and object.notify_to.name},</p>\n"
+"\n"
+"    <p>The holidays (${object.holiday_status_id.name}, ${object.name}) of ${object.employee_id.name} are going to expire on ${object.expiration_date}.</p>\n"
+"\n"
+"</div>\n"
+"            "
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: model:email.template,body_html:hr_holidays_expiration.email_template_hr_holidays_expired
+msgid "\n"
+"<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; \">\n"
+"\n"
+"    <p>Hello ${object.notify_to and object.notify_to.title_id and object.notify_to.title_id.name or ''} ${object.notify_to and object.notify_to.name},</p>\n"
+"\n"
+"    <p>The holidays (${object.holiday_status_id.name}, ${object.name}) of ${object.employee_id.name} have expired on ${object.expiration_date}.</p>\n"
+"\n"
+"</div>\n"
+"            "
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: field:hr.holidays,approval_date:0
+msgid "Date Approved"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: field:hr.holidays.status,expirable:0
+msgid "Expirable"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: view:hr.holidays:hr_holidays_expiration.edit_holiday_new_expiration
+msgid "Expiration"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: field:hr.holidays,expiration_date:0
+msgid "Expiration Date"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: field:hr.holidays,notification_sent:0
+msgid "Expiration Notification Sent"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: field:hr.holidays,expired_sent:0
+msgid "Expiration Warning Sent"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: field:hr.holidays,expired:0
+msgid "Expired"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: field:hr.holidays.status,expired_template_id:0
+msgid "Expired Email Template"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: model:email.template,subject:hr_holidays_expiration.email_template_hr_holidays
+msgid "Holiday Expiration (${object.employee_id.name or 'n/a'})"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: model:email.template,subject:hr_holidays_expiration.email_template_hr_holidays_expired
+msgid "Holidays Expired (${object.employee_id.name or 'n/a'})"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: model:ir.model,name:hr_holidays_expiration.model_hr_holidays
+msgid "Leave"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: model:ir.model,name:hr_holidays_expiration.model_hr_holidays_status
+msgid "Leave Type"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: view:hr.holidays:hr_holidays_expiration.edit_holiday_new_expiration
+msgid "Notes"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: field:hr.holidays.status,template_id:0
+msgid "Notify Email Template"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: field:hr.holidays,notify_to:0
+msgid "Notify Expiration to"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: field:hr.holidays.status,email_notify:0
+msgid "Notify Expiration via Email"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: field:hr.holidays.status,notify_period:0
+msgid "Notify period (days)"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: help:hr.holidays.status,validity:0
+msgid "The allocated holidays will become invalid after the amount        of months set in this field."
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: help:hr.holidays.status,notify_period:0
+msgid "The amount of days before the holidays expire to send         out the notification email."
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: help:hr.holidays.status,expirable:0
+msgid "These holidays can expire after a set amount of months."
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: view:hr.holidays.status:hr_holidays_expiration.edit_holiday_status_form_expiration
+msgid "Validity"
+msgstr ""
+
+#. module: hr_holidays_expiration
+#: field:hr.holidays.status,validity:0
+msgid "Validity in months"
+msgstr ""
+

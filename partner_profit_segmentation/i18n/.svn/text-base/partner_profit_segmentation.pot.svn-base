@@ -1,0 +1,99 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* partner_profit_segmentation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-16 08:19+0000\n"
+"PO-Revision-Date: 2015-03-16 08:19+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: partner_profit_segmentation
+#: field:res.partner.profitseg.segment,notes:0
+msgid "Additional Information"
+msgstr ""
+
+#. module: partner_profit_segmentation
+#: field:res.partner.profitseg.segment,create_uid:0
+msgid "Created by"
+msgstr ""
+
+#. module: partner_profit_segmentation
+#: field:res.partner.profitseg.segment,create_date:0
+msgid "Created on"
+msgstr ""
+
+#. module: partner_profit_segmentation
+#: model:ir.model,name:partner_profit_segmentation.model_res_partner_profitseg_segment
+#: view:res.partner.profitseg.segment:partner_profit_segmentation.view_partner_profitseg_segment_form
+msgid "Customer profit segment"
+msgstr ""
+
+#. module: partner_profit_segmentation
+#: view:res.partner.profitseg.segment:partner_profit_segmentation.view_partner_profitseg_segment_tree
+msgid "Customer profit segments"
+msgstr ""
+
+#. module: partner_profit_segmentation
+#: model:ir.actions.act_window,name:partner_profit_segmentation.action_profitseg_segments_tree
+#: model:ir.ui.menu,name:partner_profit_segmentation.menu_action_profitseg_segments_tree
+msgid "Customers profit segments"
+msgstr ""
+
+#. module: partner_profit_segmentation
+#: field:res.partner.profitseg.segment,id:0
+msgid "ID"
+msgstr ""
+
+#. module: partner_profit_segmentation
+#: field:res.partner.profitseg.segment,write_uid:0
+msgid "Last Updated by"
+msgstr ""
+
+#. module: partner_profit_segmentation
+#: field:res.partner.profitseg.segment,write_date:0
+msgid "Last Updated on"
+msgstr ""
+
+#. module: partner_profit_segmentation
+#: field:res.partner.profitseg.segment,lower_limit:0
+msgid "Lower limit"
+msgstr ""
+
+#. module: partner_profit_segmentation
+#: view:res.partner.profitseg.segment:partner_profit_segmentation.view_partner_profitseg_segment_form
+msgid "Notes..."
+msgstr ""
+
+#. module: partner_profit_segmentation
+#: model:ir.model,name:partner_profit_segmentation.model_res_partner
+msgid "Partner"
+msgstr ""
+
+#. module: partner_profit_segmentation
+#: field:res.partner.profitseg.segment,name:0
+msgid "Segment name"
+msgstr ""
+
+#. module: partner_profit_segmentation
+#: sql_constraint:res.partner.profitseg.segment:0
+msgid "The limit must be positive or zero"
+msgstr ""
+
+#. module: partner_profit_segmentation
+#: sql_constraint:res.partner.profitseg.segment:0
+msgid "The lower limit must be lower than the upper one!"
+msgstr ""
+
+#. module: partner_profit_segmentation
+#: field:res.partner.profitseg.segment,upper_limit:0
+msgid "Upper limit"
+msgstr ""
+
